@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        
+        //Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.//
+      
+        alert("Vamos calcular a área de um triângulo, um quadrado e um círculo. Para isso, você precisará informar os valores de cada variável.");
+        var forma = prompt("Digite a forma que deseja calcular a área (triângulo, quadrado ou círculo):");
+        switch (forma) {
+            case "triângulo":
+                var base = parseFloat(prompt("Digite a base do triângulo:"));
+                var altura = parseFloat(prompt("Digite a altura do triângulo:"));
+                var areaTriangulo = (base * altura) / 2;
+                alert("A área do triângulo é: " + areaTriangulo);
+                break;
+            case "quadrado":
+                var lado = parseFloat(prompt("Digite o lado do quadrado:"));
+                var areaQuadrado = lado * lado;
+                alert("A área do quadrado é: " + areaQuadrado);
+                break;
+            case "círculo":
+                var raio = parseFloat(prompt("Digite o raio do círculo:"));
+                var areaCirculo = Math.PI * Math.pow(raio, 2);
+                alert("A área do círculo é: " + areaCirculo.toFixed(2));
+                break;
+            default:
+                alert("Forma inválida. Por favor, escolha entre triângulo, quadrado ou círculo.");
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
