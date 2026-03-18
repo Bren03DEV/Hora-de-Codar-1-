@@ -1,4 +1,4 @@
-# 📐 Resolução de Exercícios: Cálculo de Áreas (JavaScript)
+# 📐 Hora de Codar 1
 
 Este repositório contém a resolução de uma lista de exercícios de **Lógica de Programação** focada no cálculo de áreas de figuras planas utilizando **JavaScript**.
 
